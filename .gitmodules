@@ -1,0 +1,3 @@
+[submodule "hackaviz-2025"]
+	path = hackaviz-2025
+	url = https://github.com/Toulouse-Dataviz/hackaviz-2025.git
