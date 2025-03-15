@@ -4,12 +4,16 @@ Module done for the Hackaviz 2025 event.
 """
 
 from datetime import datetime
-from os.path import join
+from os import system
+from os.path import exists, join
 
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+
+if not exists("hackaviz-2025"):
+    system("git submodule update --init --recursive")
 
 
 @st.cache_data
