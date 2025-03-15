@@ -12,7 +12,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-if not exists("hackaviz-2025"):
+if not exists("hackaviz-2025/data"):
     system("git submodule update --init --recursive")
 
 
