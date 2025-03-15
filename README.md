@@ -35,6 +35,9 @@ You need to have [uv](https://docs.astral.sh/uv/) on your system to install this
 2. **Water Level Plot**: Click and drag horizontally on the water level plot to select a specific date range. Double-click to reset the selection.
 3. **Rainfall Data Map**: Explore the map to see total precipitation and variation at different stations.
 
+## Live Demo
+
+Check out the live demo [here](https://vroger11-hackaviz-2025.streamlit.app/).
 
 ## License
 
